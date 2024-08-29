@@ -1,0 +1,184 @@
+/* Estilos gerais para o corpo da página */
+body {
+    line-height: 1.6;/* Define a altura da linha para melhor legibilidade */
+    background-color: white;/* Cor de fundo do corpo da página */
+    margin: 0;/* Remove a margem padrão do corpo */
+    padding: 0;/* Remove o preenchimento padrão do corpo */
+}
+
+/* Estilos para o cabeçalho da página */
+header {
+    background-color: #0606a9b3;
+    padding: 5px 0;/* Espaçamento interno do cabeçalho */
+    text-align: center;/* Alinha o texto ao centro */
+    color: white;/* Cor do texto do cabeçalho */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/* Define a fonte do texto do cabeçalho */
+    font-size: 20px;/*Define o tamanho da fonte do cabeçalho*/
+}
+
+/* Estilos para o menu de navegação */
+nav ul {
+    list-style: none;/* Remove a lista de marcadores padrão */
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;/* Exibe os itens da lista em linha */
+    margin: 200;
+    padding: 7%;
+}
+
+/* Estilos para os links do menu de navegação */
+nav ul li a {
+    color: rgb(100, 100, 215);
+    text-decoration: none;/* Remove a sublinha dos links */
+    font-weight: bold;/* Deixa o texto dos links em negrito */
+}
+
+nav ul li a:hover {
+    color: slategrey;
+}
+
+/*Estilo do Rodapé das páginas*/
+footer {
+    background-color: #0606a973;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.texto {
+    padding: 4% 0%;/* Espaçamento interno da seção de texto */
+    text-align: justify;
+    margin: 20px;
+    padding: 20px;/* Preenchimento interno da seção de texto */
+}
+
+.texto p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.texto h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(39, 39, 160);
+}
+
+.formacao {
+    max-width: 700px;/* Largura máxima da seção de formação */
+    margin: 40px auto;/* Centraliza a seção na página */
+    padding: 60px;
+    background-color: white;   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/* Sombra ao redor da seção */
+}
+
+.sites h2 {
+    color:rgb(59, 59, 196);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sites p {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sites img {
+    max-width: 70%;/* Largura máxima das imagens */
+    height: auto;/* Ajusta a altura proporcionalmente */
+    margin: 0 auto 10px auto; /* Centraliza as imagens e adiciona margem inferior */
+    display: block; /*A imagem é exibida como um bloco, ocupando toda a largura disponível*/
+}
+
+/* Estilos gerais para a seção de sites */
+.sites {
+    max-width: 800px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sites a {
+    display: block;
+    text-align: center;
+    background-color: #2c62be;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Efeito de hover para os links na seção de sites */
+.sites a:hover {
+    background-color: rgb(5, 5, 116);
+    color: gray;
+
+}
+
+/* Estilos para a seção de contato */
+.contato {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contato h1 {
+    text-align: center;
+    color: rgb(39, 39, 160);
+    font-family: Georgia, 'Times New Roman', Times, serif;;
+}
+
+.contato p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;/* Margem inferior */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Estilos para os rótulos (labels) no formulário de contato */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Estilos para os campos de entrada (input) e textarea no formulário */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;/* Largura total dos campos */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;/* Borda dos campos */
+    border-radius: 5px;/* Bordas arredondadas */
+    box-sizing: border-box;/* Inclui padding e border no cálculo da largura */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Estilos para o botão de envio do formulário */
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #292491;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form button:hover {
+    background-color: #02041e;
+    color: gray;
+}
+
+
+
+
+
+
+
